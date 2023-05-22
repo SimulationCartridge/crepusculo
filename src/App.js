@@ -6,16 +6,17 @@ import {
   Route,
 } from "react-router-dom";
 import Root from "../src/components/Root/root.js";
+import Home from '../src/components/Pages/home.js'
 import "./App.css";
 
-//__________________________________//
+
 
 function App() {
   
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
-        <Route />
+        <Route index element={<Home />}/>
       </Route>
     )
   );
