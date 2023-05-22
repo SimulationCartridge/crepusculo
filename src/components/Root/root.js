@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation  from "../Navigation/navigation";
 import Home from '../Pages/home'
 import Footer from '../Footer/footer'
+import Dbanner from '../DynamicBanner/dBanner';
 
 
 
@@ -15,6 +16,7 @@ function Root () {
       </nav>
       <section>
       <Home />
+      <Dbanner />
       </section>
       <footer>
         <Footer />
