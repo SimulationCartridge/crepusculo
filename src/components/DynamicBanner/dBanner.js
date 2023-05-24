@@ -2,10 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 function Dbanner() {
   const images = [
-    '../images/Screenshot_1.png',
-    '../images/Screenshot_2.png',
-    '../images/Screenshot_6.png'
-  ];
+ ];
 
   const [currentImage, setCurrentImage] = useState(0);
 
@@ -20,8 +17,23 @@ function Dbanner() {
   }, [images.length]);
 
   return (
-    <div className="banner">
-      <div className="image-container">
+    <div className="container">
+      <div className="img">
+        <img src={images[currentImage]} alt="food" />
+      </div>
+      <div className="img">
+        <img src={images[currentImage]} alt="food" />
+      </div>
+      <div className="img">
+        <img src={images[currentImage]} alt="food" />
+      </div>
+      <div className="img">
+        <img src={images[currentImage]} alt="food" />
+      </div>
+      <div className="img">
+        <img src={images[currentImage]} alt="food" />
+      </div>
+      <div className="img">
         <img src={images[currentImage]} alt="food" />
       </div>
     </div>
