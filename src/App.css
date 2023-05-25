@@ -2,8 +2,9 @@
   text-align: center;
 }
 
+
 .header-container{
-	background-color: rgb(16, 16, 15);
+	background-color: #704819;
 	height: 80px;
 	display: flex;
 	align-items: center;
@@ -17,7 +18,7 @@
   position: relative;
   width: 590px;
   height: 50px;
-  background-color: rgb(16, 16, 15);;
+  background-color: brown;
   border-radius: 8px;
   font-size: 0px;
 }
@@ -25,7 +26,7 @@
 .navLink{
 	line-height: px;
 	height: 100%;
-	font-size: 15px;
+	font-size: 30px;
 	display: inline-block;
 	margin: 20px  auto 0;
 	align-items: center;
@@ -63,19 +64,19 @@
 .navbar .start-home, .navLink:nth-child(1):hover~.animation {
 	width: 200px;
 	left: 0;
-	background-color: #1abc9c;
+	background-color: #CDBDA0;
 }
 
 .navbar .start-about, .navLink:nth-child(2):hover~.animation {
 	width: 200px;
 	left: 200px;
-	background-color: #e7e73c;
+	background-color: #CDBDA0;
 }
 
 .navbar .start-about, .navLink:nth-child(3):hover~.animation {
 	width: 200px;
 	left: 395px;
-	background-color: #5d88de;
+	background-color: #CDBDA0;
 }
 
 /******************************/
@@ -94,5 +95,43 @@
 /***BANNER*****/
 
 .footer{
-	background-color: darkgoldenrod;
+	background-color: #E99021;
+	margin: 0;
+	height: auto;
+}
+
+footer{
+	color: #FFFFFF;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+}
+
+.social-media{
+	text-decoration: none;
+}
+ h3{
+	margin: 0;
+ }
+
+/******************************/
+/***MENU*****/
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(3, 0.35fr);
+	grid-gap: 2px;
+	justify-items: center;
+	align-items: center;
+	height: auto;
+	background-color: #2E2929;
+}
+
+
+.img{
+	height: 290px;
+	width: 290px;
+	border: 1px solid black;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
