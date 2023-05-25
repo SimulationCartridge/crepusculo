@@ -2,8 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className='footer'>
-    <footer>
+    <footer className='footer'>
       <div className="contact-info">
         <h3>Contacto</h3>
         <p>Teléfono: 123-456-789</p>
@@ -18,7 +17,6 @@ function Footer() {
         </ul>
       </div>
     </footer>
-    </div>
   );
 }
 

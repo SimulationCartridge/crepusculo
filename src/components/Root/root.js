@@ -4,6 +4,8 @@ import Home from '../Pages/home'
 import Footer from '../Footer/footer'
 import Menu from '../menu/menu';
 import Dbanner from '../DynamicBanner/dBanner';
+import DownloadButton from '../Buttons/menu';
+import Welcome from '../welcome/welcome';
 
 
 
@@ -17,8 +19,12 @@ function Root () {
       </nav>
       <section>
       <Home />
-      <Dbanner />
+      <Welcome />
       </section>
+      <section>
+      <Dbanner />
+      <DownloadButton buttonText={'Menu'} />
+          </section>
       <footer>
         <Footer />
       </footer>
