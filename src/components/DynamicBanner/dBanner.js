@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import DownloadButton from '../Buttons/menu';
 
 function Dbanner() {
   const images = [
@@ -17,6 +18,7 @@ function Dbanner() {
   }, [images.length]);
 
   return (
+    <div>
     <div className="container">
       <div className="img">
         <img src={images[currentImage]} alt="food" />
@@ -37,6 +39,10 @@ function Dbanner() {
         <img src={images[currentImage]} alt="food" />
       </div>
     </div>
+      <div className="button-container">
+          <DownloadButton buttonText={'Menu'} />
+      </div>
+      </div>
   );
 }
 

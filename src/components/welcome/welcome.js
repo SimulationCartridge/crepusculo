@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const Welcome = () => {
+const Felcome = () => {
   const [showText, setShowText] = useState(false);
 
   useEffect(() => {
@@ -18,4 +18,4 @@ const Welcome = () => {
   );
 };
 
-export default Welcome;
+export default Felcome;
